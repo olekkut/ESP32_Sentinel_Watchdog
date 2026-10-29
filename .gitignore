@@ -1,0 +1,24 @@
+# --- Credentials (never commit) ---
+secrets.h
+*.env
+.env*
+
+# --- Raw media (originals contain GPS / device metadata) ---
+*.mp4
+*.mov
+Screenshot*.jpg
+Screenshot*.png
+
+# --- Build output ---
+build/
+.pio/
+*.bin
+*.elf
+*.map
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
