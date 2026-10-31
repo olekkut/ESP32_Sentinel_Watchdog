@@ -167,7 +167,8 @@ Active Exec Time: 12279 ms
 2. **Clone the repo**
 
    ```bash
-   git clone https://github.com/olekkut/ESP32_Sentinel_Watchdog.git
+   git clone https://github.com/olekkut/esp32-sentinel-watchdog.git
+   cd esp32-sentinel-watchdog
    ```
 
 3. **Add your credentials.** Copy the template and fill it in. `secrets.h` is git-ignored:
@@ -208,8 +209,8 @@ Active Exec Time: 12279 ms
 ## Repository layout
 
 ```text
-ESP32_Sentinel_Watchdog/
-├── ESP32_Sentinel_Watchdog.ino   # firmware
+esp32-sentinel-watchdog/
+├── esp32-sentinel-watchdog.ino   # firmware
 ├── secrets.example.h             # credentials template -> copy to secrets.h
 ├── docs/
 │   ├── demo.webp                 # looping demo of the LED cycle
